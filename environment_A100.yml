@@ -1,0 +1,22 @@
+name: torchA100
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+  - rdkit
+dependencies:
+  - python==3.9.*
+  - pip
+  - numpy
+  - tqdm
+  - magma-cuda113
+  - cudatoolkit=11.3
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pyg
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - rdkit
